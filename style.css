@@ -1,0 +1,41 @@
+
+body{
+    background-color: blueviolet;
+    font-family: 'Monoton', cursive;
+}
+
+h1{
+    color: teal;
+    background-color: tomato;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#show_sketch{
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+canvas{
+    border: 5px solid red;
+    border-radius: 25px;
+    animation-name: Subscribe;
+    margin-top:70px ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Subscribe{
+
+    from{
+        box-shadow: 1px 1px 50px red;}
+        
+    to{
+        box-shadow: 1px 1px 50px blue;  
+    }
+    }
+
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
